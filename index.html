@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>User Registration Page</title>
+  </head>
+  <body>
+    <div class="card">
+      <form id="control">
+        <h1 id="header"class="registration-title">Registration</h1>
+        <label for="username">First Name</label>
+        <input id="username" type="text" />
+        <span  id="usernameWarn" class="warn hide">No epmty space</span>
+
+        <label for="pass">Choose Password</label>
+        <input id="pass" type="password" />
+        <span id="passWarn"class="warn hide">At least 8 characters(No epmty space)</span>
+
+        <label for="passCheck">Retype Password</label>
+        <input id="passCheck" type="password" />
+        <span id="passCheckWarn"class="warn hide">Password mismatch(No epmty space)</span>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" />
+        <span id="emailWarn"class="warn hide">Email is required (Ex:email@gmail.com)</span>
+
+        <button type="submit" id="button">Create Account</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

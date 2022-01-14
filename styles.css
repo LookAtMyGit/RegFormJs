@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+  background: #312121;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.registration-title {
+  color: #741188ed;
+   
+}
+
+.card label {
+  display: block;
+  font-weight: bold;
+  margin: .5rem 0 .1rem 0;
+}
+
+.card input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.card button {
+  display: block;
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.card button:hover,
+.card button:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.card button:focus {
+  outline: none;
+}
+
+.warn {
+  font-size: 0.75rem;
+  color: red;
+  display: contents;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+
